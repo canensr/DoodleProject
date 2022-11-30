@@ -1,0 +1,95 @@
+﻿@model EntityLayer.Concrete.Activity
+@{
+    ViewBag.Title = "Etkinlik";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<br />
+<br />
+<div class="site-cover site-cover-sm same-height overlay single-page" style="background-image: url('/miniblog/images/img_4.jpg');">
+    <div class="container">
+        <div class="row same-height justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                <div class="post-entry text-center">
+                    <h1 class="">Etkinlik</h1>
+                    <p class="lead mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, adipisci?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="site-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-6">
+
+
+
+                <form action="#" class="p-5 bg-white">
+
+
+                    <div class="row form-group">
+
+                        <div class="col-md-12">
+                            <label class="text-black" for="email">Etkinlik Konusu</label>
+                            <input type="text" id="ActivitySubject" class="form-control">
+                        </div>
+                    </div>
+
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="message">Etkinlik Detayı</label>
+                            <textarea name="text" id="ActivityExplanation" cols="30" rows="3" class="form-control" placeholder=""></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label class="text-black" for="fname">Platform</label>
+                            <input type="text" id="fname" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="text-black" for="lname">Süre</label>
+                            <input type="text" id="ActivityDuration" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label class="text-black" for="fname">Tarih Seçimi 1</label>
+                            <input type="datetime" id="ActivityDate" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="text-black" for="lname">Tarih Seçimi 2</label>
+                            <input type="datetime" id="ActivityDate2" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label class="text-black" for="fname">Tarih Seçimi 3</label>
+                            <input type="datetime" id="ActivityDate3" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="text-black" for="lname">Tarih Seçimi 4</label>
+                            <input type="datetime" id="ActivityDate4" class="form-control">
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input type="submit" value="Gönder" class="btn btn-primary py-2 px-4 text-white">
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
